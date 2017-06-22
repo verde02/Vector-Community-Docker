@@ -18,7 +18,7 @@ which will download a minimal Centos 7 machine image, then install Actian Vector
 
 To create a new container based on this image, type:
 
-  `docker run --name vector actian/vector:community`
+  `docker run --name vector actian/vector5.0:community`
 
 and a new container will be created, and Vector will be started. Running the container this way will show you the Vector startup log details, and then pause, requiring you to hit Ctrl-C at the end before you can log into the container. Alternatively, starting the container via:
 
